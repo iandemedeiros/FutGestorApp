@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   },
 
   treinamento: {
-    backgroundColor: '#1E293B',
+    backgroundColor: '#1c2636',
   },
 
   partida: {
