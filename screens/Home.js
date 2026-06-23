@@ -97,32 +97,51 @@ const styles = StyleSheet.create({
   },
 
   treinamento: {
-    backgroundColor: '#152a41',
+    backgroundColor: '#1E293B',
   },
 
   partida: {
-    backgroundColor: '#2d8152',
+    backgroundColor: '#166534',
   },
 
   titulo: {
-    color: '#fff',
-    fontSize: 24,
+    color: '#F8FAFC',
+    fontSize: 28,
     fontWeight: 'bold',
-    marginBottom: 20,
+    textAlign: 'center',
+    marginBottom: 25,
+    marginTop: 10,
   },
 
   botao: {
-    backgroundColor: '#fff',
-    padding: 12,
-    borderRadius: 10,
-    marginBottom: 20,
+    backgroundColor: '#FACC15',
+    paddingVertical: 14,
+    borderRadius: 15,
+    marginBottom: 25,
     alignItems: 'center',
+    elevation: 5,
+  },
+
+  textoBotao: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#111827',
   },
 
   card: {
-    backgroundColor: '#fff',
-    padding: 15,
-    borderRadius: 10,
-    marginBottom: 10,
+    backgroundColor: '#FFFFFF',
+    paddingVertical: 18,
+    paddingHorizontal: 15,
+    borderRadius: 15,
+    marginBottom: 12,
+    borderLeftWidth: 6,
+    borderLeftColor: '#FACC15',
+    elevation: 4,
+  },
+
+  nomeJogador: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#111827',
   },
 });

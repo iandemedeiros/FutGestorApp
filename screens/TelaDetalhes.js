@@ -32,17 +32,34 @@ export default function TelaDetalhes({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#0f172a',
     padding: 20,
+    justifyContent: 'center',
+  },
+
+  card: {
+    backgroundColor: '#1e293b',
+    padding: 25,
+    borderRadius: 15,
+    borderWidth: 2,
+    borderColor: '#22c55e',
   },
 
   titulo: {
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: 'bold',
-    marginBottom: 20,
+    color: '#22c55e',
+    textAlign: 'center',
+    marginBottom: 25,
   },
 
   info: {
-    fontSize: 18,
-    marginBottom: 10,
+    fontSize: 20,
+    color: '#ffffff',
+    marginBottom: 15,
+    paddingVertical: 10,
+    paddingHorizontal: 15,
+    backgroundColor: '#334155',
+    borderRadius: 8,
   },
 });
